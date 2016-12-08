@@ -14,7 +14,7 @@ iOS 7+
 
 ## Usage
 
-Automatically calculates the relative position, determine where is the arrow and the orientation.
+Automatically calculates the relative position, determine location and orientation of the arrow.
 
 ``` Objective-C
 // in ViewController.m
