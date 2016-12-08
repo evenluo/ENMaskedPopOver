@@ -46,7 +46,6 @@
         
         // 箭头在上方还是在下方
         BOOL isUp = convertedCenter.y > containerView.bounds.size.height/2 ? YES : NO;
-        isUp = YES;
         
         CGPoint popRectOrigin;
         CGFloat minimumMargin = 8;
