@@ -60,7 +60,7 @@ iOS 7+
 ### 参数
 
 * inView : 文本弹出层的遮罩在哪个view中
-* basedOn : 文本弹出层应该以哪个view座位计算的参考view 
+* basedOn : 文本弹出层应该以哪个view作为计算的参考view 
 
 注意: `inView` 这个参数可以是其他的view。比如说, 如果你想弹出层能够遮住navigationbar（我个人很不喜欢这种交互），你可以这样做:
 
