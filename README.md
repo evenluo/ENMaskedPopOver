@@ -6,12 +6,15 @@ A lightweight PopOver view.
 ## Demo Time
 
 ![Demo](images/demo.gif)
+![Demo 1](images/demo1.gif)
 
 ## Requirement
 
 iOS 7+
 
 ## Usage
+
+Automatically calculates the relative position, determine where is the arrow and the orientation.
 
 ``` Objective-C
 // in ViewController.m
@@ -24,7 +27,7 @@ iOS 7+
 ### Parameters
 
 * inView : The view this masked-popover gonna show.
-* basedOn : The view should be frame of reference to this masked-popover. 
+* basedOn : The view should be frame of reference to this masked-popover.
 
 note: `inView` could be other view. For example, if you want to cover the navigation bar, which I dont't like this approach, you just use it like this:
 
@@ -43,6 +46,8 @@ note: `inView` could be other view. For example, if you want to cover the naviga
 iOS 7+
 
 ## 使用方法
+
+自动计算相对位置，算出箭头所处的位置和朝向
 
 ``` Objective-C
 // in ViewController.m
