@@ -17,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self setTitle:@"sample"];
 }
 
 - (IBAction)pop:(id)sender {
