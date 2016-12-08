@@ -26,7 +26,7 @@ Automatically calculates the relative position, determine where is the arrow and
 
 ### Parameters
 
-* inView : The view this masked-popover gonna show.
+* inView : The masked-popover gonna show in.
 * basedOn : The view should be frame of reference to this masked-popover.
 
 note: `inView` could be other view. For example, if you want to cover the navigation bar, which I dont't like this approach, you just use it like this:
